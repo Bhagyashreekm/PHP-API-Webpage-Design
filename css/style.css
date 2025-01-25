@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.text-center {
+    text-transform: uppercase !important;
+    
+  }
+  .heading{
+    margin-bottom: 4.2rem !important;
+  }
+h2 {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+.title-overlay {
+
+    bottom: 0px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.2rem;
+    }
+}
